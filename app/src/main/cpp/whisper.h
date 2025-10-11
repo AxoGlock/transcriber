@@ -4,9 +4,9 @@
 #include "ggml.h"
 #include "ggml-cpu.h"
 
-#include <stddef.h>
-#include <stdint.h>
-#include <stdbool.h>
+#include <cstddef>
+#include <cstdint>
+
 
 #ifdef __GNUC__
 #    define WHISPER_DEPRECATED(func, hint) func __attribute__((deprecated(hint)))

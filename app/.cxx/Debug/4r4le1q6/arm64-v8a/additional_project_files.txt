@@ -1,0 +1,2 @@
+C:\transcriber\app\src\main\cpp\ggml\ggml.h
+C:\transcriber\app\src\main\cpp\ggml-cpu-impl.h

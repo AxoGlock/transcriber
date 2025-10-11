@@ -1,7 +1,3 @@
-#define GGML_VERSION "0.0.0"
-#define GGML_COMMIT  "0000000"
-#define WHISPER_VERSION "0.0.0"
-
 #include "whisper.h"
 #include "whisper-arch.h"
 
@@ -8913,6 +8909,7 @@ void whisper_log_set(ggml_log_callback log_callback, void * user_data) {
 }
 
 const char * whisper_version(void) {
+    const char *WHISPER_VERSION;
     return WHISPER_VERSION;
 }
 

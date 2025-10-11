@@ -17,12 +17,6 @@
     "{LIST_OF_TARGETS_TO_BUILD}"
   ],
   "libraries": {
-    "ggml::@6890427a1f51a3e7e1df": {
-      "artifactName": "ggml",
-      "abi": "arm64-v8a",
-      "output": "C:\\transcriber\\app\\.cxx\\Debug\\4r4le1q6\\arm64-v8a\\libggml.a",
-      "runtimeFiles": []
-    },
     "native_whisper::@6890427a1f51a3e7e1df": {
       "artifactName": "native_whisper",
       "abi": "arm64-v8a",

@@ -1,0 +1,5 @@
+ninja: Entering directory `C:\transcriber\app\.cxx\Debug\4r4le1q6\armeabi-v7a'
+[0/1] Re-running CMake...
+-- Configuring done
+FAILED: build.ninja 
+C:\Users\axoglock\AppData\Local\Android\SDK\cmake\3.22.1\bin\cmake.exe --regenerate-during-build -SC:\transcriber\app\src\main\cpp -BC:\transcriber\app\.cxx\Debug\4r4le1q6\armeabi-v7a

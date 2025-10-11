@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.axo.transcribidor.app-debug-57:/mipmap-anydpi-v26_ic_launcher.png.flat",
+        "source": "com.axo.transcribidor.app-main-59:/mipmap-anydpi-v26/ic_launcher.png"
+    },
+    {
+        "merged": "com.axo.transcribidor.app-debug-57:/mipmap-anydpi-v26_ic_launcher_round.png.flat",
+        "source": "com.axo.transcribidor.app-main-59:/mipmap-anydpi-v26/ic_launcher_round.png"
+    }
+]

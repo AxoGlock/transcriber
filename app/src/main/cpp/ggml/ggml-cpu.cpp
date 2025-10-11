@@ -4,7 +4,6 @@
 #include "repack.h"
 #include "traits.h"
 #include "ggml-impl.h"
-#include "amx.h"
 
 #include <cctype>
 #include <string>

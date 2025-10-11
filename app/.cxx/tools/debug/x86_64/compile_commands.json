@@ -38,5 +38,25 @@
   "directory": "C:/transcriber/app/.cxx/Debug/4r4le1q6/x86_64",
   "command": "C:\\Users\\axoglock\\AppData\\Local\\Android\\SDK\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android33 --sysroot=C:/Users/axoglock/AppData/Local/Android/SDK/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_whisper_EXPORTS -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -std=gnu++17 -o CMakeFiles\\native_whisper.dir\\native_whisper.cpp.o -c C:\\transcriber\\app\\src\\main\\cpp\\native_whisper.cpp",
   "file": "C:\\transcriber\\app\\src\\main\\cpp\\native_whisper.cpp"
+},
+{
+  "directory": "C:/transcriber/app/.cxx/Debug/4r4le1q6/x86_64",
+  "command": "C:\\Users\\axoglock\\AppData\\Local\\Android\\SDK\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android33 --sysroot=C:/Users/axoglock/AppData/Local/Android/SDK/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_whisper_EXPORTS -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o CMakeFiles\\native_whisper.dir\\ggml\\ggml.c.o -c C:\\transcriber\\app\\src\\main\\cpp\\ggml\\ggml.c",
+  "file": "C:\\transcriber\\app\\src\\main\\cpp\\ggml\\ggml.c"
+},
+{
+  "directory": "C:/transcriber/app/.cxx/Debug/4r4le1q6/x86_64",
+  "command": "C:\\Users\\axoglock\\AppData\\Local\\Android\\SDK\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=x86_64-none-linux-android33 --sysroot=C:/Users/axoglock/AppData/Local/Android/SDK/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_whisper_EXPORTS -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -std=gnu++17 -o CMakeFiles\\native_whisper.dir\\ggml\\ggml-cpu.cpp.o -c C:\\transcriber\\app\\src\\main\\cpp\\ggml\\ggml-cpu.cpp",
+  "file": "C:\\transcriber\\app\\src\\main\\cpp\\ggml\\ggml-cpu.cpp"
+},
+{
+  "directory": "C:/transcriber/app/.cxx/Debug/4r4le1q6/x86_64",
+  "command": "C:\\Users\\axoglock\\AppData\\Local\\Android\\SDK\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android33 --sysroot=C:/Users/axoglock/AppData/Local/Android/SDK/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_whisper_EXPORTS -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o CMakeFiles\\native_whisper.dir\\ggml\\ggml-alloc.c.o -c C:\\transcriber\\app\\src\\main\\cpp\\ggml\\ggml-alloc.c",
+  "file": "C:\\transcriber\\app\\src\\main\\cpp\\ggml\\ggml-alloc.c"
+},
+{
+  "directory": "C:/transcriber/app/.cxx/Debug/4r4le1q6/x86_64",
+  "command": "C:\\Users\\axoglock\\AppData\\Local\\Android\\SDK\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=x86_64-none-linux-android33 --sysroot=C:/Users/axoglock/AppData/Local/Android/SDK/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_whisper_EXPORTS -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o CMakeFiles\\native_whisper.dir\\ggml\\ggml-quants.c.o -c C:\\transcriber\\app\\src\\main\\cpp\\ggml\\ggml-quants.c",
+  "file": "C:\\transcriber\\app\\src\\main\\cpp\\ggml\\ggml-quants.c"
 }
 ]

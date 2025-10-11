@@ -695,6 +695,12 @@ WHISPER_SDL2:BOOL=OFF
 //whisper: use system-installed GGML library
 WHISPER_USE_SYSTEM_GGML:BOOL=OFF
 
+//Path to a library.
+android-lib:FILEPATH=C:/Users/axoglock/AppData/Local/Android/SDK/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/33/libandroid.so
+
+//Path to a library.
+atomic-lib:FILEPATH=atomic-lib-NOTFOUND
+
 //Value Computed by CMake
 ggml_BINARY_DIR:STATIC=C:/transcriber/app/.cxx/Debug/4r4le1q6/x86_64/whispercpp/ggml
 
@@ -706,6 +712,9 @@ ggml_SOURCE_DIR:STATIC=C:/transcriber/app/src/main/cpp/whispercpp/ggml
 
 //Path to a library.
 log-lib:FILEPATH=C:/Users/axoglock/AppData/Local/Android/SDK/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/33/liblog.so
+
+//Path to a library.
+m-lib:FILEPATH=C:/Users/axoglock/AppData/Local/Android/SDK/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/x86_64-linux-android/33/libm.so
 
 //Value Computed by CMake
 native_whisper_BINARY_DIR:STATIC=C:/transcriber/app/.cxx/Debug/4r4le1q6/x86_64
