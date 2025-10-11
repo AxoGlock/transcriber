@@ -1,0 +1,33 @@
+{
+  "buildFiles": [
+    "C:\\transcriber\\app\\src\\main\\cpp\\CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "C:\\Users\\axoglock\\AppData\\Local\\Android\\SDK\\cmake\\3.22.1\\bin\\ninja.exe",
+      "-C",
+      "C:\\transcriber\\app\\.cxx\\Debug\\4r4le1q6\\x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "C:\\Users\\axoglock\\AppData\\Local\\Android\\SDK\\cmake\\3.22.1\\bin\\ninja.exe",
+    "-C",
+    "C:\\transcriber\\app\\.cxx\\Debug\\4r4le1q6\\x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "ggml::@6890427a1f51a3e7e1df": {
+      "artifactName": "ggml",
+      "abi": "x86_64",
+      "output": "C:\\transcriber\\app\\.cxx\\Debug\\4r4le1q6\\x86_64\\libggml.a",
+      "runtimeFiles": []
+    },
+    "native_whisper::@6890427a1f51a3e7e1df": {
+      "artifactName": "native_whisper",
+      "abi": "x86_64",
+      "output": "C:\\transcriber\\app\\build\\intermediates\\cxx\\Debug\\4r4le1q6\\obj\\x86_64\\libnative_whisper.so",
+      "runtimeFiles": []
+    }
+  }
+}

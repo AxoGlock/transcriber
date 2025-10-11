@@ -1,0 +1,4 @@
+C:/transcriber/app/.cxx/Debug/4r4le1q6/arm64-v8a/CMakeFiles/ggml.dir
+C:/transcriber/app/.cxx/Debug/4r4le1q6/arm64-v8a/CMakeFiles/native_whisper.dir
+C:/transcriber/app/.cxx/Debug/4r4le1q6/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/transcriber/app/.cxx/Debug/4r4le1q6/arm64-v8a/CMakeFiles/rebuild_cache.dir
