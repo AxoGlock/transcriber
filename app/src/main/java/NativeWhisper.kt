@@ -6,5 +6,6 @@ object NativeWhisper {
         System.loadLibrary("native_whisper")
     }
 
-    external fun nativeTranscribeChunk(data: ByteArray): String
+    external fun nativeTranscribeChunk(modelPath: String, audioPath: String, language: String): String
+
 }

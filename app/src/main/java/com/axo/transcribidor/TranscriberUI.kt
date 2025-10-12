@@ -1,5 +1,6 @@
 package com.axo.transcribidor
 
+import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.text.BasicTextField
@@ -11,51 +12,48 @@ import androidx.compose.ui.unit.dp
 import java.io.File
 
 @Composable
-fun TranscriberUI(
-    tempAudioFile: File,
-    transcribedText: MutableState<String>,
-    onRecordStart: () -> Unit,
-    onRecordStop: (language: String) -> Unit
+fun TranscriberApp(
+    onStartRecording: ((String) -> Unit) -> Unit,
+    onInitWhisper: () -> String,
+    onInitNative: (String, String) -> Boolean,
+    onToggleLang: (String) -> Unit
 ) {
-    var selectedLanguage by remember { mutableStateOf("English") }
+    var text by remember { mutableStateOf(TextFieldValue("")) }
+    var whisperInitialized by remember { mutableStateOf(false) }
+    var recording by remember { mutableStateOf(false) }
+    var language by remember { mutableStateOf("en") }
 
-    Column(modifier = Modifier.fillMaxSize().padding(16.dp)) {
-        // Language display and button
-        Row(verticalAlignment = androidx.compose.ui.Alignment.CenterVertically) {
-            Text("Language: $selectedLanguage", style = MaterialTheme.typography.titleMedium)
-            Spacer(modifier = Modifier.width(16.dp))
-            Button(onClick = {
-                selectedLanguage = if (selectedLanguage == "English") "Spanish" else "English"
-            }) {
-                Text("Switch Language")
+    Scaffold(
+        bottomBar = {
+            Row(
+                Modifier.fillMaxWidth().padding(8.dp),
+                horizontalArrangement = Arrangement.SpaceEvenly
+            ) {
+                Button(onClick = {
+                    if (!whisperInitialized) {
+                        val modelPath = onInitWhisper()
+                        whisperInitialized = onInitNative(modelPath, language)
+                    }
+                    if (!recording) onStartRecording { result ->
+                        text = TextFieldValue(text.text + result)
+                    }
+                    recording = true
+                }) { Text("Record") }
+
+                Button(onClick = { recording = false }) { Text("Stop") }
+
+                Button(onClick = {
+                    language = if (language == "en") "es" else "en"
+                    onToggleLang(language)
+                }) { Text(language.uppercase()) }
             }
         }
-
-        Spacer(modifier = Modifier.height(16.dp))
-
-        // Editable transcription box
-        BasicTextField(
-            value = transcribedText.value,
-            onValueChange = { transcribedText.value = it },
-            modifier = Modifier
-                .fillMaxWidth()
-                .height(300.dp)
-                .padding(8.dp)
-                .border(1.dp, Color.Gray)
-                .padding(8.dp)
+    ) { padding ->
+        TextField(
+            value = text,
+            onValueChange = { text = it },
+            modifier = Modifier.padding(padding).fillMaxSize()
         )
-
-        Spacer(modifier = Modifier.height(16.dp))
-
-        // Record buttons
-        Row {
-            Button(onClick = { onRecordStart() }, modifier = Modifier.weight(1f)) {
-                Text("Start Recording")
-            }
-            Spacer(modifier = Modifier.width(16.dp))
-            Button(onClick = { onRecordStop(selectedLanguage) }, modifier = Modifier.weight(1f)) {
-                Text("Stop & Transcribe")
-            }
-        }
     }
 }
+

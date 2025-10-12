@@ -1,62 +1,57 @@
 [
 {
   "directory": "C:/transcriber/app/.cxx/Debug/4r4le1q6/armeabi-v7a",
-  "command": "C:\\Users\\axoglock\\AppData\\Local\\Android\\SDK\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=armv7-none-linux-androideabi33 --sysroot=C:/Users/axoglock/AppData/Local/Android/SDK/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o CMakeFiles\\ggml.dir\\ggml\\ggml.c.o -c C:\\transcriber\\app\\src\\main\\cpp\\ggml\\ggml.c",
-  "file": "C:\\transcriber\\app\\src\\main\\cpp\\ggml\\ggml.c"
-},
-{
-  "directory": "C:/transcriber/app/.cxx/Debug/4r4le1q6/armeabi-v7a",
-  "command": "C:\\Users\\axoglock\\AppData\\Local\\Android\\SDK\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=armv7-none-linux-androideabi33 --sysroot=C:/Users/axoglock/AppData/Local/Android/SDK/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o CMakeFiles\\ggml.dir\\ggml\\ggml-alloc.c.o -c C:\\transcriber\\app\\src\\main\\cpp\\ggml\\ggml-alloc.c",
-  "file": "C:\\transcriber\\app\\src\\main\\cpp\\ggml\\ggml-alloc.c"
-},
-{
-  "directory": "C:/transcriber/app/.cxx/Debug/4r4le1q6/armeabi-v7a",
-  "command": "C:\\Users\\axoglock\\AppData\\Local\\Android\\SDK\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi33 --sysroot=C:/Users/axoglock/AppData/Local/Android/SDK/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -std=gnu++17 -o CMakeFiles\\ggml.dir\\ggml\\ggml-backend.cpp.o -c C:\\transcriber\\app\\src\\main\\cpp\\ggml\\ggml-backend.cpp",
-  "file": "C:\\transcriber\\app\\src\\main\\cpp\\ggml\\ggml-backend.cpp"
-},
-{
-  "directory": "C:/transcriber/app/.cxx/Debug/4r4le1q6/armeabi-v7a",
-  "command": "C:\\Users\\axoglock\\AppData\\Local\\Android\\SDK\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi33 --sysroot=C:/Users/axoglock/AppData/Local/Android/SDK/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -std=gnu++17 -o CMakeFiles\\ggml.dir\\ggml\\ggml-backend-reg.cpp.o -c C:\\transcriber\\app\\src\\main\\cpp\\ggml\\ggml-backend-reg.cpp",
-  "file": "C:\\transcriber\\app\\src\\main\\cpp\\ggml\\ggml-backend-reg.cpp"
-},
-{
-  "directory": "C:/transcriber/app/.cxx/Debug/4r4le1q6/armeabi-v7a",
-  "command": "C:\\Users\\axoglock\\AppData\\Local\\Android\\SDK\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi33 --sysroot=C:/Users/axoglock/AppData/Local/Android/SDK/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -std=gnu++17 -o CMakeFiles\\ggml.dir\\ggml\\ggml-cpu.cpp.o -c C:\\transcriber\\app\\src\\main\\cpp\\ggml\\ggml-cpu.cpp",
-  "file": "C:\\transcriber\\app\\src\\main\\cpp\\ggml\\ggml-cpu.cpp"
-},
-{
-  "directory": "C:/transcriber/app/.cxx/Debug/4r4le1q6/armeabi-v7a",
-  "command": "C:\\Users\\axoglock\\AppData\\Local\\Android\\SDK\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=armv7-none-linux-androideabi33 --sysroot=C:/Users/axoglock/AppData/Local/Android/SDK/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o CMakeFiles\\ggml.dir\\ggml\\ggml-quants.c.o -c C:\\transcriber\\app\\src\\main\\cpp\\ggml\\ggml-quants.c",
-  "file": "C:\\transcriber\\app\\src\\main\\cpp\\ggml\\ggml-quants.c"
-},
-{
-  "directory": "C:/transcriber/app/.cxx/Debug/4r4le1q6/armeabi-v7a",
-  "command": "C:\\Users\\axoglock\\AppData\\Local\\Android\\SDK\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi33 --sysroot=C:/Users/axoglock/AppData/Local/Android/SDK/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_whisper_EXPORTS -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -std=gnu++17 -o CMakeFiles\\native_whisper.dir\\whisper.cpp.o -c C:\\transcriber\\app\\src\\main\\cpp\\whisper.cpp",
-  "file": "C:\\transcriber\\app\\src\\main\\cpp\\whisper.cpp"
-},
-{
-  "directory": "C:/transcriber/app/.cxx/Debug/4r4le1q6/armeabi-v7a",
-  "command": "C:\\Users\\axoglock\\AppData\\Local\\Android\\SDK\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi33 --sysroot=C:/Users/axoglock/AppData/Local/Android/SDK/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_whisper_EXPORTS -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -std=gnu++17 -o CMakeFiles\\native_whisper.dir\\native_whisper.cpp.o -c C:\\transcriber\\app\\src\\main\\cpp\\native_whisper.cpp",
+  "command": "C:\\Users\\axoglock\\AppData\\Local\\Android\\SDK\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi33 --sysroot=C:/Users/axoglock/AppData/Local/Android/SDK/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_whisper_EXPORTS -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles\\native_whisper.dir\\native_whisper.cpp.o -c C:\\transcriber\\app\\src\\main\\cpp\\native_whisper.cpp",
   "file": "C:\\transcriber\\app\\src\\main\\cpp\\native_whisper.cpp"
 },
 {
   "directory": "C:/transcriber/app/.cxx/Debug/4r4le1q6/armeabi-v7a",
-  "command": "C:\\Users\\axoglock\\AppData\\Local\\Android\\SDK\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=armv7-none-linux-androideabi33 --sysroot=C:/Users/axoglock/AppData/Local/Android/SDK/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_whisper_EXPORTS -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o CMakeFiles\\native_whisper.dir\\ggml\\ggml.c.o -c C:\\transcriber\\app\\src\\main\\cpp\\ggml\\ggml.c",
+  "command": "C:\\Users\\axoglock\\AppData\\Local\\Android\\SDK\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi33 --sysroot=C:/Users/axoglock/AppData/Local/Android/SDK/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_whisper_EXPORTS -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles\\native_whisper.dir\\whisper.cpp.o -c C:\\transcriber\\app\\src\\main\\cpp\\whisper.cpp",
+  "file": "C:\\transcriber\\app\\src\\main\\cpp\\whisper.cpp"
+},
+{
+  "directory": "C:/transcriber/app/.cxx/Debug/4r4le1q6/armeabi-v7a",
+  "command": "C:\\Users\\axoglock\\AppData\\Local\\Android\\SDK\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=armv7-none-linux-androideabi33 --sysroot=C:/Users/axoglock/AppData/Local/Android/SDK/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_whisper_EXPORTS -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -std=gnu11 -o CMakeFiles\\native_whisper.dir\\ggml\\ggml.c.o -c C:\\transcriber\\app\\src\\main\\cpp\\ggml\\ggml.c",
   "file": "C:\\transcriber\\app\\src\\main\\cpp\\ggml\\ggml.c"
 },
 {
   "directory": "C:/transcriber/app/.cxx/Debug/4r4le1q6/armeabi-v7a",
-  "command": "C:\\Users\\axoglock\\AppData\\Local\\Android\\SDK\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi33 --sysroot=C:/Users/axoglock/AppData/Local/Android/SDK/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_whisper_EXPORTS -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -std=gnu++17 -o CMakeFiles\\native_whisper.dir\\ggml\\ggml-cpu.cpp.o -c C:\\transcriber\\app\\src\\main\\cpp\\ggml\\ggml-cpu.cpp",
-  "file": "C:\\transcriber\\app\\src\\main\\cpp\\ggml\\ggml-cpu.cpp"
-},
-{
-  "directory": "C:/transcriber/app/.cxx/Debug/4r4le1q6/armeabi-v7a",
-  "command": "C:\\Users\\axoglock\\AppData\\Local\\Android\\SDK\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=armv7-none-linux-androideabi33 --sysroot=C:/Users/axoglock/AppData/Local/Android/SDK/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_whisper_EXPORTS -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o CMakeFiles\\native_whisper.dir\\ggml\\ggml-alloc.c.o -c C:\\transcriber\\app\\src\\main\\cpp\\ggml\\ggml-alloc.c",
+  "command": "C:\\Users\\axoglock\\AppData\\Local\\Android\\SDK\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=armv7-none-linux-androideabi33 --sysroot=C:/Users/axoglock/AppData/Local/Android/SDK/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_whisper_EXPORTS -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -std=gnu11 -o CMakeFiles\\native_whisper.dir\\ggml\\ggml-alloc.c.o -c C:\\transcriber\\app\\src\\main\\cpp\\ggml\\ggml-alloc.c",
   "file": "C:\\transcriber\\app\\src\\main\\cpp\\ggml\\ggml-alloc.c"
 },
 {
   "directory": "C:/transcriber/app/.cxx/Debug/4r4le1q6/armeabi-v7a",
-  "command": "C:\\Users\\axoglock\\AppData\\Local\\Android\\SDK\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=armv7-none-linux-androideabi33 --sysroot=C:/Users/axoglock/AppData/Local/Android/SDK/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_whisper_EXPORTS -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -o CMakeFiles\\native_whisper.dir\\ggml\\ggml-quants.c.o -c C:\\transcriber\\app\\src\\main\\cpp\\ggml\\ggml-quants.c",
+  "command": "C:\\Users\\axoglock\\AppData\\Local\\Android\\SDK\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe --target=armv7-none-linux-androideabi33 --sysroot=C:/Users/axoglock/AppData/Local/Android/SDK/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_whisper_EXPORTS -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -std=gnu11 -o CMakeFiles\\native_whisper.dir\\ggml\\ggml-quants.c.o -c C:\\transcriber\\app\\src\\main\\cpp\\ggml\\ggml-quants.c",
   "file": "C:\\transcriber\\app\\src\\main\\cpp\\ggml\\ggml-quants.c"
+},
+{
+  "directory": "C:/transcriber/app/.cxx/Debug/4r4le1q6/armeabi-v7a",
+  "command": "C:\\Users\\axoglock\\AppData\\Local\\Android\\SDK\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi33 --sysroot=C:/Users/axoglock/AppData/Local/Android/SDK/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_whisper_EXPORTS -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles\\native_whisper.dir\\ggml\\ggml-cpu.cpp.o -c C:\\transcriber\\app\\src\\main\\cpp\\ggml\\ggml-cpu.cpp",
+  "file": "C:\\transcriber\\app\\src\\main\\cpp\\ggml\\ggml-cpu.cpp"
+},
+{
+  "directory": "C:/transcriber/app/.cxx/Debug/4r4le1q6/armeabi-v7a",
+  "command": "C:\\Users\\axoglock\\AppData\\Local\\Android\\SDK\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi33 --sysroot=C:/Users/axoglock/AppData/Local/Android/SDK/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_whisper_EXPORTS -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles\\native_whisper.dir\\ggml\\ggml-cpu-traits.cpp.o -c C:\\transcriber\\app\\src\\main\\cpp\\ggml\\ggml-cpu-traits.cpp",
+  "file": "C:\\transcriber\\app\\src\\main\\cpp\\ggml\\ggml-cpu-traits.cpp"
+},
+{
+  "directory": "C:/transcriber/app/.cxx/Debug/4r4le1q6/armeabi-v7a",
+  "command": "C:\\Users\\axoglock\\AppData\\Local\\Android\\SDK\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi33 --sysroot=C:/Users/axoglock/AppData/Local/Android/SDK/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_whisper_EXPORTS -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles\\native_whisper.dir\\ggml\\ggml-threading.cpp.o -c C:\\transcriber\\app\\src\\main\\cpp\\ggml\\ggml-threading.cpp",
+  "file": "C:\\transcriber\\app\\src\\main\\cpp\\ggml\\ggml-threading.cpp"
+},
+{
+  "directory": "C:/transcriber/app/.cxx/Debug/4r4le1q6/armeabi-v7a",
+  "command": "C:\\Users\\axoglock\\AppData\\Local\\Android\\SDK\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi33 --sysroot=C:/Users/axoglock/AppData/Local/Android/SDK/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_whisper_EXPORTS -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles\\native_whisper.dir\\ggml\\ggml-backend.cpp.o -c C:\\transcriber\\app\\src\\main\\cpp\\ggml\\ggml-backend.cpp",
+  "file": "C:\\transcriber\\app\\src\\main\\cpp\\ggml\\ggml-backend.cpp"
+},
+{
+  "directory": "C:/transcriber/app/.cxx/Debug/4r4le1q6/armeabi-v7a",
+  "command": "C:\\Users\\axoglock\\AppData\\Local\\Android\\SDK\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi33 --sysroot=C:/Users/axoglock/AppData/Local/Android/SDK/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_whisper_EXPORTS -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles\\native_whisper.dir\\ggml\\ggml-backend-reg.cpp.o -c C:\\transcriber\\app\\src\\main\\cpp\\ggml\\ggml-backend-reg.cpp",
+  "file": "C:\\transcriber\\app\\src\\main\\cpp\\ggml\\ggml-backend-reg.cpp"
+},
+{
+  "directory": "C:/transcriber/app/.cxx/Debug/4r4le1q6/armeabi-v7a",
+  "command": "C:\\Users\\axoglock\\AppData\\Local\\Android\\SDK\\ndk\\26.1.10909125\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang++.exe --target=armv7-none-linux-androideabi33 --sysroot=C:/Users/axoglock/AppData/Local/Android/SDK/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot -Dnative_whisper_EXPORTS -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -march=armv7-a -mthumb -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -o CMakeFiles\\native_whisper.dir\\ggml\\ggml-cpu-stubs.cpp.o -c C:\\transcriber\\app\\src\\main\\cpp\\ggml\\ggml-cpu-stubs.cpp",
+  "file": "C:\\transcriber\\app\\src\\main\\cpp\\ggml\\ggml-cpu-stubs.cpp"
 }
 ]

@@ -50,153 +50,89 @@ cmake_ninja_workdir = C$:/transcriber/app/.cxx/Debug/4r4le1q6/arm64-v8a/
 build cmake_object_order_depends_target_native_whisper: phony || CMakeFiles/native_whisper.dir
 
 build CMakeFiles/native_whisper.dir/native_whisper.cpp.o: CXX_COMPILER__native_whisper_Debug C$:/transcriber/app/src/main/cpp/native_whisper.cpp || cmake_object_order_depends_target_native_whisper
-  DEFINES = -DGGML_NO_AMX -Dnative_whisper_EXPORTS
+  DEFINES = -Dnative_whisper_EXPORTS
   DEP_FILE = CMakeFiles\native_whisper.dir\native_whisper.cpp.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -std=c++17
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC
   INCLUDES = -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml
   OBJECT_DIR = CMakeFiles\native_whisper.dir
   OBJECT_FILE_DIR = CMakeFiles\native_whisper.dir
 
 build CMakeFiles/native_whisper.dir/whisper.cpp.o: CXX_COMPILER__native_whisper_Debug C$:/transcriber/app/src/main/cpp/whisper.cpp || cmake_object_order_depends_target_native_whisper
-  DEFINES = -DGGML_NO_AMX -Dnative_whisper_EXPORTS
+  DEFINES = -Dnative_whisper_EXPORTS
   DEP_FILE = CMakeFiles\native_whisper.dir\whisper.cpp.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -std=c++17
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC
   INCLUDES = -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml
   OBJECT_DIR = CMakeFiles\native_whisper.dir
   OBJECT_FILE_DIR = CMakeFiles\native_whisper.dir
 
-build CMakeFiles/native_whisper.dir/ggml/ggml.cpp.o: CXX_COMPILER__native_whisper_Debug C$:/transcriber/app/src/main/cpp/ggml/ggml.cpp || cmake_object_order_depends_target_native_whisper
-  DEFINES = -DGGML_NO_AMX -Dnative_whisper_EXPORTS
-  DEP_FILE = CMakeFiles\native_whisper.dir\ggml\ggml.cpp.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -std=c++17
-  INCLUDES = -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml
-  OBJECT_DIR = CMakeFiles\native_whisper.dir
-  OBJECT_FILE_DIR = CMakeFiles\native_whisper.dir\ggml
-
-build CMakeFiles/native_whisper.dir/ggml/ggml-cpu.cpp.o: CXX_COMPILER__native_whisper_Debug C$:/transcriber/app/src/main/cpp/ggml/ggml-cpu.cpp || cmake_object_order_depends_target_native_whisper
-  DEFINES = -DGGML_NO_AMX -Dnative_whisper_EXPORTS
-  DEP_FILE = CMakeFiles\native_whisper.dir\ggml\ggml-cpu.cpp.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -std=c++17
-  INCLUDES = -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml
-  OBJECT_DIR = CMakeFiles\native_whisper.dir
-  OBJECT_FILE_DIR = CMakeFiles\native_whisper.dir\ggml
-
-build CMakeFiles/native_whisper.dir/ggml/ggml-backend.cpp.o: CXX_COMPILER__native_whisper_Debug C$:/transcriber/app/src/main/cpp/ggml/ggml-backend.cpp || cmake_object_order_depends_target_native_whisper
-  DEFINES = -DGGML_NO_AMX -Dnative_whisper_EXPORTS
-  DEP_FILE = CMakeFiles\native_whisper.dir\ggml\ggml-backend.cpp.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -std=c++17
-  INCLUDES = -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml
-  OBJECT_DIR = CMakeFiles\native_whisper.dir
-  OBJECT_FILE_DIR = CMakeFiles\native_whisper.dir\ggml
-
-build CMakeFiles/native_whisper.dir/ggml/ggml-backend-reg.cpp.o: CXX_COMPILER__native_whisper_Debug C$:/transcriber/app/src/main/cpp/ggml/ggml-backend-reg.cpp || cmake_object_order_depends_target_native_whisper
-  DEFINES = -DGGML_NO_AMX -Dnative_whisper_EXPORTS
-  DEP_FILE = CMakeFiles\native_whisper.dir\ggml\ggml-backend-reg.cpp.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -std=c++17
-  INCLUDES = -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml
-  OBJECT_DIR = CMakeFiles\native_whisper.dir
-  OBJECT_FILE_DIR = CMakeFiles\native_whisper.dir\ggml
-
-build CMakeFiles/native_whisper.dir/ggml/ggml-threading.cpp.o: CXX_COMPILER__native_whisper_Debug C$:/transcriber/app/src/main/cpp/ggml/ggml-threading.cpp || cmake_object_order_depends_target_native_whisper
-  DEFINES = -DGGML_NO_AMX -Dnative_whisper_EXPORTS
-  DEP_FILE = CMakeFiles\native_whisper.dir\ggml\ggml-threading.cpp.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -std=c++17
-  INCLUDES = -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml
-  OBJECT_DIR = CMakeFiles\native_whisper.dir
-  OBJECT_FILE_DIR = CMakeFiles\native_whisper.dir\ggml
-
-build CMakeFiles/native_whisper.dir/ggml/ggml-opt.cpp.o: CXX_COMPILER__native_whisper_Debug C$:/transcriber/app/src/main/cpp/ggml/ggml-opt.cpp || cmake_object_order_depends_target_native_whisper
-  DEFINES = -DGGML_NO_AMX -Dnative_whisper_EXPORTS
-  DEP_FILE = CMakeFiles\native_whisper.dir\ggml\ggml-opt.cpp.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -std=c++17
-  INCLUDES = -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml
-  OBJECT_DIR = CMakeFiles\native_whisper.dir
-  OBJECT_FILE_DIR = CMakeFiles\native_whisper.dir\ggml
-
-build CMakeFiles/native_whisper.dir/ggml/gguf.cpp.o: CXX_COMPILER__native_whisper_Debug C$:/transcriber/app/src/main/cpp/ggml/gguf.cpp || cmake_object_order_depends_target_native_whisper
-  DEFINES = -DGGML_NO_AMX -Dnative_whisper_EXPORTS
-  DEP_FILE = CMakeFiles\native_whisper.dir\ggml\gguf.cpp.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -std=c++17
-  INCLUDES = -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml
-  OBJECT_DIR = CMakeFiles\native_whisper.dir
-  OBJECT_FILE_DIR = CMakeFiles\native_whisper.dir\ggml
-
 build CMakeFiles/native_whisper.dir/ggml/ggml.c.o: C_COMPILER__native_whisper_Debug C$:/transcriber/app/src/main/cpp/ggml/ggml.c || cmake_object_order_depends_target_native_whisper
-  DEFINES = -DGGML_NO_AMX -Dnative_whisper_EXPORTS
+  DEFINES = -Dnative_whisper_EXPORTS
   DEP_FILE = CMakeFiles\native_whisper.dir\ggml\ggml.c.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -std=gnu11
+  INCLUDES = -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml
+  OBJECT_DIR = CMakeFiles\native_whisper.dir
+  OBJECT_FILE_DIR = CMakeFiles\native_whisper.dir\ggml
+
+build CMakeFiles/native_whisper.dir/ggml/ggml-alloc.c.o: C_COMPILER__native_whisper_Debug C$:/transcriber/app/src/main/cpp/ggml/ggml-alloc.c || cmake_object_order_depends_target_native_whisper
+  DEFINES = -Dnative_whisper_EXPORTS
+  DEP_FILE = CMakeFiles\native_whisper.dir\ggml\ggml-alloc.c.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -std=gnu11
   INCLUDES = -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml
   OBJECT_DIR = CMakeFiles\native_whisper.dir
   OBJECT_FILE_DIR = CMakeFiles\native_whisper.dir\ggml
 
 build CMakeFiles/native_whisper.dir/ggml/ggml-quants.c.o: C_COMPILER__native_whisper_Debug C$:/transcriber/app/src/main/cpp/ggml/ggml-quants.c || cmake_object_order_depends_target_native_whisper
-  DEFINES = -DGGML_NO_AMX -Dnative_whisper_EXPORTS
+  DEFINES = -Dnative_whisper_EXPORTS
   DEP_FILE = CMakeFiles\native_whisper.dir\ggml\ggml-quants.c.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC -std=gnu11
   INCLUDES = -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml
   OBJECT_DIR = CMakeFiles\native_whisper.dir
   OBJECT_FILE_DIR = CMakeFiles\native_whisper.dir\ggml
 
-build CMakeFiles/native_whisper.dir/ggml-alloc.c.o: C_COMPILER__native_whisper_Debug C$:/transcriber/app/src/main/cpp/ggml-alloc.c || cmake_object_order_depends_target_native_whisper
-  DEFINES = -DGGML_NO_AMX -Dnative_whisper_EXPORTS
-  DEP_FILE = CMakeFiles\native_whisper.dir\ggml-alloc.c.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC
-  INCLUDES = -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml
-  OBJECT_DIR = CMakeFiles\native_whisper.dir
-  OBJECT_FILE_DIR = CMakeFiles\native_whisper.dir
-
-build CMakeFiles/native_whisper.dir/ggml/binary-ops.cpp.o: CXX_COMPILER__native_whisper_Debug C$:/transcriber/app/src/main/cpp/ggml/binary-ops.cpp || cmake_object_order_depends_target_native_whisper
-  DEFINES = -DGGML_NO_AMX -Dnative_whisper_EXPORTS
-  DEP_FILE = CMakeFiles\native_whisper.dir\ggml\binary-ops.cpp.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -std=c++17
+build CMakeFiles/native_whisper.dir/ggml/ggml-cpu.cpp.o: CXX_COMPILER__native_whisper_Debug C$:/transcriber/app/src/main/cpp/ggml/ggml-cpu.cpp || cmake_object_order_depends_target_native_whisper
+  DEFINES = -Dnative_whisper_EXPORTS
+  DEP_FILE = CMakeFiles\native_whisper.dir\ggml\ggml-cpu.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC
   INCLUDES = -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml
   OBJECT_DIR = CMakeFiles\native_whisper.dir
   OBJECT_FILE_DIR = CMakeFiles\native_whisper.dir\ggml
 
-build CMakeFiles/native_whisper.dir/ggml/unary-ops.cpp.o: CXX_COMPILER__native_whisper_Debug C$:/transcriber/app/src/main/cpp/ggml/unary-ops.cpp || cmake_object_order_depends_target_native_whisper
-  DEFINES = -DGGML_NO_AMX -Dnative_whisper_EXPORTS
-  DEP_FILE = CMakeFiles\native_whisper.dir\ggml\unary-ops.cpp.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -std=c++17
+build CMakeFiles/native_whisper.dir/ggml/ggml-cpu-traits.cpp.o: CXX_COMPILER__native_whisper_Debug C$:/transcriber/app/src/main/cpp/ggml/ggml-cpu-traits.cpp || cmake_object_order_depends_target_native_whisper
+  DEFINES = -Dnative_whisper_EXPORTS
+  DEP_FILE = CMakeFiles\native_whisper.dir\ggml\ggml-cpu-traits.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC
   INCLUDES = -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml
   OBJECT_DIR = CMakeFiles\native_whisper.dir
   OBJECT_FILE_DIR = CMakeFiles\native_whisper.dir\ggml
 
-build CMakeFiles/native_whisper.dir/ggml/ops.cpp.o: CXX_COMPILER__native_whisper_Debug C$:/transcriber/app/src/main/cpp/ggml/ops.cpp || cmake_object_order_depends_target_native_whisper
-  DEFINES = -DGGML_NO_AMX -Dnative_whisper_EXPORTS
-  DEP_FILE = CMakeFiles\native_whisper.dir\ggml\ops.cpp.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -std=c++17
+build CMakeFiles/native_whisper.dir/ggml/ggml-threading.cpp.o: CXX_COMPILER__native_whisper_Debug C$:/transcriber/app/src/main/cpp/ggml/ggml-threading.cpp || cmake_object_order_depends_target_native_whisper
+  DEFINES = -Dnative_whisper_EXPORTS
+  DEP_FILE = CMakeFiles\native_whisper.dir\ggml\ggml-threading.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC
   INCLUDES = -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml
   OBJECT_DIR = CMakeFiles\native_whisper.dir
   OBJECT_FILE_DIR = CMakeFiles\native_whisper.dir\ggml
 
-build CMakeFiles/native_whisper.dir/ggml/vec.cpp.o: CXX_COMPILER__native_whisper_Debug C$:/transcriber/app/src/main/cpp/ggml/vec.cpp || cmake_object_order_depends_target_native_whisper
-  DEFINES = -DGGML_NO_AMX -Dnative_whisper_EXPORTS
-  DEP_FILE = CMakeFiles\native_whisper.dir\ggml\vec.cpp.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -std=c++17
+build CMakeFiles/native_whisper.dir/ggml/ggml-backend.cpp.o: CXX_COMPILER__native_whisper_Debug C$:/transcriber/app/src/main/cpp/ggml/ggml-backend.cpp || cmake_object_order_depends_target_native_whisper
+  DEFINES = -Dnative_whisper_EXPORTS
+  DEP_FILE = CMakeFiles\native_whisper.dir\ggml\ggml-backend.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC
   INCLUDES = -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml
   OBJECT_DIR = CMakeFiles\native_whisper.dir
   OBJECT_FILE_DIR = CMakeFiles\native_whisper.dir\ggml
 
-build CMakeFiles/native_whisper.dir/ggml/repack.cpp.o: CXX_COMPILER__native_whisper_Debug C$:/transcriber/app/src/main/cpp/ggml/repack.cpp || cmake_object_order_depends_target_native_whisper
-  DEFINES = -DGGML_NO_AMX -Dnative_whisper_EXPORTS
-  DEP_FILE = CMakeFiles\native_whisper.dir\ggml\repack.cpp.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -std=c++17
+build CMakeFiles/native_whisper.dir/ggml/ggml-backend-reg.cpp.o: CXX_COMPILER__native_whisper_Debug C$:/transcriber/app/src/main/cpp/ggml/ggml-backend-reg.cpp || cmake_object_order_depends_target_native_whisper
+  DEFINES = -Dnative_whisper_EXPORTS
+  DEP_FILE = CMakeFiles\native_whisper.dir\ggml\ggml-backend-reg.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC
   INCLUDES = -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml
   OBJECT_DIR = CMakeFiles\native_whisper.dir
   OBJECT_FILE_DIR = CMakeFiles\native_whisper.dir\ggml
 
-build CMakeFiles/native_whisper.dir/ggml/traits.cpp.o: CXX_COMPILER__native_whisper_Debug C$:/transcriber/app/src/main/cpp/ggml/traits.cpp || cmake_object_order_depends_target_native_whisper
-  DEFINES = -DGGML_NO_AMX -Dnative_whisper_EXPORTS
-  DEP_FILE = CMakeFiles\native_whisper.dir\ggml\traits.cpp.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -std=c++17
-  INCLUDES = -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml
-  OBJECT_DIR = CMakeFiles\native_whisper.dir
-  OBJECT_FILE_DIR = CMakeFiles\native_whisper.dir\ggml
-
-build CMakeFiles/native_whisper.dir/ggml/hbm.cpp.o: CXX_COMPILER__native_whisper_Debug C$:/transcriber/app/src/main/cpp/ggml/hbm.cpp || cmake_object_order_depends_target_native_whisper
-  DEFINES = -DGGML_NO_AMX -Dnative_whisper_EXPORTS
-  DEP_FILE = CMakeFiles\native_whisper.dir\ggml\hbm.cpp.o.d
-  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC -std=c++17
+build CMakeFiles/native_whisper.dir/ggml/ggml-cpu-stubs.cpp.o: CXX_COMPILER__native_whisper_Debug C$:/transcriber/app/src/main/cpp/ggml/ggml-cpu-stubs.cpp || cmake_object_order_depends_target_native_whisper
+  DEFINES = -Dnative_whisper_EXPORTS
+  DEP_FILE = CMakeFiles\native_whisper.dir\ggml\ggml-cpu-stubs.cpp.o.d
+  FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -fPIC
   INCLUDES = -IC:/transcriber/app/src/main/cpp -IC:/transcriber/app/src/main/cpp/ggml
   OBJECT_DIR = CMakeFiles\native_whisper.dir
   OBJECT_FILE_DIR = CMakeFiles\native_whisper.dir\ggml
@@ -209,10 +145,10 @@ build CMakeFiles/native_whisper.dir/ggml/hbm.cpp.o: CXX_COMPILER__native_whisper
 #############################################
 # Link the shared library C:\transcriber\app\build\intermediates\cxx\Debug\4r4le1q6\obj\arm64-v8a\libnative_whisper.so
 
-build C$:/transcriber/app/build/intermediates/cxx/Debug/4r4le1q6/obj/arm64-v8a/libnative_whisper.so: CXX_SHARED_LIBRARY_LINKER__native_whisper_Debug CMakeFiles/native_whisper.dir/native_whisper.cpp.o CMakeFiles/native_whisper.dir/whisper.cpp.o CMakeFiles/native_whisper.dir/ggml/ggml.cpp.o CMakeFiles/native_whisper.dir/ggml/ggml-cpu.cpp.o CMakeFiles/native_whisper.dir/ggml/ggml-backend.cpp.o CMakeFiles/native_whisper.dir/ggml/ggml-backend-reg.cpp.o CMakeFiles/native_whisper.dir/ggml/ggml-threading.cpp.o CMakeFiles/native_whisper.dir/ggml/ggml-opt.cpp.o CMakeFiles/native_whisper.dir/ggml/gguf.cpp.o CMakeFiles/native_whisper.dir/ggml/ggml.c.o CMakeFiles/native_whisper.dir/ggml/ggml-quants.c.o CMakeFiles/native_whisper.dir/ggml-alloc.c.o CMakeFiles/native_whisper.dir/ggml/binary-ops.cpp.o CMakeFiles/native_whisper.dir/ggml/unary-ops.cpp.o CMakeFiles/native_whisper.dir/ggml/ops.cpp.o CMakeFiles/native_whisper.dir/ggml/vec.cpp.o CMakeFiles/native_whisper.dir/ggml/repack.cpp.o CMakeFiles/native_whisper.dir/ggml/traits.cpp.o CMakeFiles/native_whisper.dir/ggml/hbm.cpp.o | C$:/Users/axoglock/AppData/Local/Android/SDK/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/33/liblog.so C$:/Users/axoglock/AppData/Local/Android/SDK/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/33/libandroid.so C$:/Users/axoglock/AppData/Local/Android/SDK/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/33/libm.so
+build C$:/transcriber/app/build/intermediates/cxx/Debug/4r4le1q6/obj/arm64-v8a/libnative_whisper.so: CXX_SHARED_LIBRARY_LINKER__native_whisper_Debug CMakeFiles/native_whisper.dir/native_whisper.cpp.o CMakeFiles/native_whisper.dir/whisper.cpp.o CMakeFiles/native_whisper.dir/ggml/ggml.c.o CMakeFiles/native_whisper.dir/ggml/ggml-alloc.c.o CMakeFiles/native_whisper.dir/ggml/ggml-quants.c.o CMakeFiles/native_whisper.dir/ggml/ggml-cpu.cpp.o CMakeFiles/native_whisper.dir/ggml/ggml-cpu-traits.cpp.o CMakeFiles/native_whisper.dir/ggml/ggml-threading.cpp.o CMakeFiles/native_whisper.dir/ggml/ggml-backend.cpp.o CMakeFiles/native_whisper.dir/ggml/ggml-backend-reg.cpp.o CMakeFiles/native_whisper.dir/ggml/ggml-cpu-stubs.cpp.o | C$:/Users/axoglock/AppData/Local/Android/SDK/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/33/liblog.so C$:/Users/axoglock/AppData/Local/Android/SDK/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/33/libandroid.so
   LANGUAGE_COMPILE_FLAGS = -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info
   LINK_FLAGS = -static-libstdc++ -Wl,--build-id=sha1 -Wl,--no-undefined-version -Wl,--fatal-warnings -Wl,--no-undefined -Qunused-arguments
-  LINK_LIBRARIES = C:/Users/axoglock/AppData/Local/Android/SDK/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/33/liblog.so  C:/Users/axoglock/AppData/Local/Android/SDK/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/33/libandroid.so  C:/Users/axoglock/AppData/Local/Android/SDK/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/33/libm.so  -latomic -lm
+  LINK_LIBRARIES = C:/Users/axoglock/AppData/Local/Android/SDK/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/33/liblog.so  C:/Users/axoglock/AppData/Local/Android/SDK/ndk/26.1.10909125/toolchains/llvm/prebuilt/windows-x86_64/sysroot/usr/lib/aarch64-linux-android/33/libandroid.so  -latomic  -lm  -latomic -lm
   OBJECT_DIR = CMakeFiles\native_whisper.dir
   POST_BUILD = cd .
   PRE_LINK = cd .

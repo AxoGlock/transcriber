@@ -474,8 +474,13 @@ bool ggml_guid_matches(ggml_guid_t guid_a, ggml_guid_t guid_b) {
 }
 
 const char * ggml_version(void) {
-    return (const char *) GGML_OP_SIN;
+    return "unknown";
 }
+
+const char * ggml_commit(void) {
+    return "unknown";
+}
+
 //
 // timing
 //

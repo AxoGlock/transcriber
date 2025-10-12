@@ -17,12 +17,6 @@
     "{LIST_OF_TARGETS_TO_BUILD}"
   ],
   "libraries": {
-    "ggml::@6890427a1f51a3e7e1df": {
-      "artifactName": "ggml",
-      "abi": "armeabi-v7a",
-      "output": "C:\\transcriber\\app\\.cxx\\Debug\\4r4le1q6\\armeabi-v7a\\libggml.a",
-      "runtimeFiles": []
-    },
     "native_whisper::@6890427a1f51a3e7e1df": {
       "artifactName": "native_whisper",
       "abi": "armeabi-v7a",
