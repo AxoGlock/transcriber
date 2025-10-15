@@ -8965,7 +8965,7 @@ void whisper_log_set(ggml_log_callback log_callback, void * user_data) {
 }
 
 const char * whisper_version(void) {
-    return "unknown";
+    return "unknow";
 }
 
 GGML_ATTRIBUTE_FORMAT(2, 3)

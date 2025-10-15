@@ -345,7 +345,7 @@ size_t ggml_backend_reg_count() {
     return get_reg().backends.size();
 }
 
-ggml_backend_reg_t ggml_backend_reg_get(size_t index) {
+ggml_backend_reg_t ggml_backend_reg_get(const char *index) {
     GGML_ASSERT(index < ggml_backend_reg_count());
     return get_reg().backends[index].reg;
 }

@@ -1,1 +1,0 @@
-C:\transcriber\app\src\main\cpp\CMakeLists.txt
